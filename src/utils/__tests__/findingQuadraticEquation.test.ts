@@ -4,7 +4,7 @@ describe("findingQuadraticEquation", () => {
   //console.log(findingQuadraticEquation(0, 0, 0));
 
   it("Корней нет", () => {
-    expect(findingQuadraticEquation(1, 0, 1)).toEqual([]);
+    expect(findingQuadraticEquation(0, 0, 1)).toEqual([]);
   });
 
   it("Два корня кратности", () => {
