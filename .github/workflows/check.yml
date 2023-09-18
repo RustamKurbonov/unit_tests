@@ -9,4 +9,6 @@ jobs:
       - name: Install deps
         run: npm ci
       - name: Lint
-        run: npm run lint
+        run: npm run eslint
+      - name: Tests
+        run: npm run test
